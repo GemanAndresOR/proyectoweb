@@ -1,5 +1,5 @@
 :root {
-    --color-dark: #15181f;
+    --color-dark: linear-gradient(135deg, #8c8d8d, #050007);
     --color-dark-x: #2d343f;
     --color-dark-xx: #1f232b;
     --color-light: #ffffff;
@@ -10,9 +10,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
-    background-color: var(--color-grey);
+   
     color: var(--color-light);
     letter-spacing: .05rem;
+    background: linear-gradient(135deg, #8c8d8d, #050007);
 }
 
 .bg-light {
